@@ -144,7 +144,7 @@ const SignUpScreen = () => {
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
+    <ScrollView  bounces={true} keyboardShouldPersistTaps="handled" contentContainerStyle={styles.container}>
       <View style={styles.header} />
       <Text style={styles.headerText}>Sign Up</Text>
   
@@ -376,12 +376,12 @@ const SignUpScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flexGrow: 1,
     padding: 20,
     backgroundColor: '#fff',
   },
   header: {
-    height: 'hide',
+    height: '0',
     backgroundColor: 'green',
     marginBottom: 20,
   },

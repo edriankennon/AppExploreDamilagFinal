@@ -170,16 +170,24 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: '#4CAF50',
-    padding: 20,
+    padding: 30,
+    
   },
   headerTitle: {
-    fontSize: 20,
+    position: 'static',
+    fontSize: 25,
     color: 'white',
     fontWeight: 'bold',
+    paddingTop: 50,
+    paddingLeft: '32%',
+        
   },
   headerAction: {
     fontSize: 18,
     color: 'white',
+    marginBottom: 30,
+    marginTop: 2,
+    
   },
   centeredContainer: {
     flex: 1,
